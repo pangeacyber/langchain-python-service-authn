@@ -12,7 +12,7 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts.chat import ChatPromptTemplate
-from langchain_googledrive.retrievers import GoogleDriveRetriever
+from langchain_googledrive.retrievers import GoogleDriveRetriever  # type: ignore[import-untyped]
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from pangea import PangeaConfig
 from pangea.services import Vault
