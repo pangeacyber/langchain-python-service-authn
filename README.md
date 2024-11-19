@@ -7,7 +7,7 @@ into a LangChain app to authenticate with external services.
 
 - Python v3.12 or greater.
 - pip v24.2 or [uv][] v0.4.24.
-- A [Pangea account][Pangea signup] with AuthN and AuthZ enabled.
+- A [Pangea account][Pangea signup] with Vault enabled.
 - An [OpenAI API key][OpenAI API keys].
 - A Google Drive folder containing documents. Note down the ID of the folder
   (see [the LangChain docs][retrieve-the-google-docs] for a guide on how to get
